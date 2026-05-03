@@ -1,4 +1,4 @@
-# DataForge Consulting — Landing Page
+# DataRix Consulting — Landing Page
 
 Proyecto Flask básico con miras a crecer. Por ahora sirve la landing page estática. Listo para subir a un servidor.
 
@@ -7,7 +7,7 @@ Proyecto Flask básico con miras a crecer. Por ahora sirve la landing page está
 ## Estructura del proyecto
 
 ```
-dataforge/
+datarix/
 ├── run.py                  ← Punto de entrada
 ├── config.py               ← Configuración dev / producción
 ├── requirements.txt        ← Dependencias Python
@@ -57,7 +57,7 @@ Abre el navegador en: **http://localhost:5000**
 1. Crea cuenta en https://render.com
 2. Conecta tu repositorio de GitHub
 3. Render detecta el `render.yaml` automáticamente
-4. En 2 minutos tienes la URL pública: `https://dataforge.onrender.com`
+4. En 2 minutos tienes la URL pública: `https://datarix.onrender.com`
 5. Para conectar tu dominio: Settings → Custom Domain
 
 ### Opción B — Railway.app (GRATIS con límite)
@@ -72,7 +72,7 @@ Abre el navegador en: **http://localhost:5000**
 ```bash
 # En el servidor
 git clone <tu-repo>
-cd dataforge
+cd datarix
 pip install -r requirements.txt
 
 # Correr con gunicorn (producción)
